@@ -54,11 +54,11 @@
 // $tr++;
 // echo "</table>";
 
-echo '<table border="3px solid" width="1000px">';
+echo '<table border="0px solid" width="1000px">';
 for ($st = 1; $st <= 9; $st++) {
     echo "<tr>";
     for ($td= 1; $td <= 9; $td++) {
-        echo "<td style='text-align: center; border: 2px solid'>$td * $st = ". $st * $td ." </td>";
+        echo "<td style='text-align: center; border: 1px solid'>$td * $st = ". $st * $td ." </td>";
     }
     echo "</tr>";
 }
